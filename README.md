@@ -98,7 +98,7 @@ for r in receitas:
 ```
 
 ## Estrutura do Projeto
-
+```bash
 plano-de-refeicoes/
 │
 ├─ api/                # Chamadas à API Spoonacular
@@ -111,12 +111,14 @@ plano-de-refeicoes/
 ├─ requirements.txt
 ├─ .env                # Variáveis de ambiente (não subir no GitHub)
 └─ README.md
+```
 
 ## Licença
 MIT License © [Franciscoq54]
 
 
 ---
+<<<<<<< HEAD
 
 💡 **O que fazer agora:**
 
@@ -128,3 +130,5 @@ MIT License © [Franciscoq54]
 git add README.md assets/
 git commit -m "Atualiza README com visual e exemplos"
 git push origin main
+=======
+>>>>>>> 70f5c9b (Uptade README)
