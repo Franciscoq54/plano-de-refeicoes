@@ -1,5 +1,8 @@
-#extrai os valores nutricionais principais(calorias, proteinas, gorduras, hidratos)   
+"""
+Modulo utilitario para extraçao e formatação dos valores nutricionais 
+"""
 
+#Extrai os valores nutricionais principais(calorias, proteinas, gorduras e hidratos) a partir de um dicionario fornecido pela API
 def valoresNutricionais(valNutricionais):
     calorias = proteinas = gorduras = hidratos = "N/A"
 

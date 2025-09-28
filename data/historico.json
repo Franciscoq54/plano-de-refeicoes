@@ -1,0 +1,850 @@
+[
+    {
+        "data": "2025-05-17 12:06",
+        "dieta": "Vegan",
+        "calorias": 2000,
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Moroccan chickpea and lentil stew",
+            "Simple Garlic Pasta"
+        ]
+    },
+    {
+        "data": "2025-05-17 15:29",
+        "dieta": "Vegan",
+        "calorias": 2000,
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Moroccan chickpea and lentil stew",
+            "Simple Garlic Pasta"
+        ]
+    },
+    {
+        "data": "2025-05-18 13:34",
+        "dieta": "Vegan",
+        "calorias": 2000,
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Moroccan chickpea and lentil stew",
+            "Simple Garlic Pasta"
+        ]
+    },
+    {
+        "data": "2025-05-18 13:44",
+        "dieta": "Gluten Free",
+        "calorias": 2000,
+        "refeicoes": [
+            "Curious George's Gluten-Free Banana Nut Bread",
+            "Rotisserie Chicken and Bean Tostadas",
+            "Simple Roast Chicken"
+        ]
+    },
+    {
+        "data": "2025-05-18 17:58",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Macaroni with Fresh Tomatoes and Beans",
+            "Curried Pork Chops and Cauliflower With Basmati Rice"
+        ]
+    },
+    {
+        "data": "2025-05-20 10:14",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            "Peaches And Cream Oatmeal",
+            "Farfalle with fresh tomatoes, basil and mozzarella",
+            "Spicy Eggplant Spaghetti"
+        ]
+    },
+    {
+        "data": "2025-05-26 23:09",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Easy Tomato Basil Chicken – One Pot Meal",
+            "Mummy Meatballs with Spaghetti"
+        ]
+    },
+    {
+        "data": "2025-05-26 23:23",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Easy Tomato Basil Chicken – One Pot Meal",
+            "Pasta with Peas and Italian Sausage"
+        ]
+    },
+    {
+        "data": "2025-05-27 08:46",
+        "dieta": "Vegan",
+        "calorias": 4000,
+        "refeicoes": [
+            "Blueberry Cinnamon Porridge",
+            "Noodles and Veggies With Peanut Sauce",
+            "Quick Veggie Stir-Fry"
+        ]
+    },
+    {
+        "data": "2025-05-27 09:00",
+        "dieta": "Vegan",
+        "calorias": 2000,
+        "refeicoes": [
+            "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+            "Moroccan chickpea and lentil stew",
+            "Simple Garlic Pasta"
+        ]
+    },
+    {
+        "data": "2025-05-27 09:06",
+        "dieta": "Vegan",
+        "calorias": 3000,
+        "refeicoes": [
+            "Blueberry Cinnamon Porridge",
+            "Noodles and Veggies With Peanut Sauce",
+            "Quick Veggie Stir-Fry"
+        ]
+    },
+    {
+        "data": "2025-05-28 08:49",
+        "dieta": "Pescetarian",
+        "calorias": 2000,
+        "refeicoes": [
+            "Crab Cakes Eggs Benedict",
+            "Oven Baked Salmon with Broccoli (Sheet Pan )",
+            "Ridiculously Easy Gourmet Tuna Sandwich"
+        ]
+    },
+    {
+        "data": "2025-05-28 09:04",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            "Doughnuts",
+            "Pasta With Feta Cheese And Asparagus",
+            "Rice with Fried Egg and Sausage"
+        ]
+    },
+    {
+        "data": "2025-05-29 22:07",
+        "dieta": "Vegan",
+        "calorias": 2500,
+        "refeicoes": [
+            "Blueberry Cinnamon Porridge",
+            "Noodles and Veggies With Peanut Sauce",
+            "Quick Veggie Stir-Fry"
+        ]
+    },
+    {
+        "data": "2025-05-30 14:47",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 1095797,
+                "title": "Lemon Rum Crêpes",
+                "readyInMinutes": 40,
+                "servings": 6
+            },
+            {
+                "id": 643634,
+                "title": "Macaroni with Fresh Tomatoes and Beans",
+                "readyInMinutes": 25,
+                "servings": 4
+            },
+            {
+                "id": 654009,
+                "title": "Orecchiette With Sun-Dried and Fresh Cherry Tomatoes",
+                "readyInMinutes": 45,
+                "servings": 2
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 15:14",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 646442,
+                "title": "Healthy Black Forest Baked Oatmeal",
+                "readyInMinutes": 45,
+                "servings": 3
+            },
+            {
+                "id": 643634,
+                "title": "Macaroni with Fresh Tomatoes and Beans",
+                "readyInMinutes": 25,
+                "servings": 4
+            },
+            {
+                "id": 661094,
+                "title": "Spicy Eggplant Spaghetti",
+                "readyInMinutes": 45,
+                "servings": 2
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 15:29",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 716417,
+                "title": "Strawberry Shortcake w. Mini Strawberry PopTarts",
+                "readyInMinutes": 45,
+                "servings": 4
+            },
+            {
+                "id": 653251,
+                "title": "Noodles and Veggies With Peanut Sauce",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 1697703,
+                "title": "Butternut Squash Pasta",
+                "readyInMinutes": 60,
+                "servings": 4
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 15:41",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 655219,
+                "title": "Peanut Butter And Chocolate Oatmeal",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "id": 642585,
+                "title": "Farfalle with fresh tomatoes, basil and mozzarella",
+                "readyInMinutes": 15,
+                "servings": 4
+            },
+            {
+                "id": 661094,
+                "title": "Spicy Eggplant Spaghetti",
+                "readyInMinutes": 45,
+                "servings": 2
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 15:42",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "id": 643674,
+                "title": "Fried Brown Rice",
+                "readyInMinutes": 25,
+                "servings": 2
+            },
+            {
+                "id": 652591,
+                "title": "Mummy Meatballs with Spaghetti",
+                "readyInMinutes": 45,
+                "servings": 16
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 15:44",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 716276,
+                "title": "Doughnuts",
+                "readyInMinutes": 45,
+                "servings": 2
+            },
+            {
+                "id": 639954,
+                "title": "Colorful Wild Rice Salad",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "id": 649718,
+                "title": "Lemon Pasta Alfredo (Vegan)",
+                "readyInMinutes": 45,
+                "servings": 4
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 19:17",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 644854,
+                "title": "Gluten Free Quinoa and Corn Flour Crepes",
+                "readyInMinutes": 60,
+                "servings": 4
+            },
+            {
+                "id": 642593,
+                "title": "Farfalle With Sun-Dried Tomato Pesto, Sausage and Fennel",
+                "readyInMinutes": 20,
+                "servings": 4
+            },
+            {
+                "id": 641631,
+                "title": "Dragon Salad - Couscous Summer Salad",
+                "readyInMinutes": 90,
+                "servings": 6
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 19:26",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 639637,
+                "title": "Classic scones",
+                "readyInMinutes": 45,
+                "servings": 4
+            },
+            {
+                "id": 653251,
+                "title": "Noodles and Veggies With Peanut Sauce",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 664718,
+                "title": "Vegetarian Tostadas",
+                "readyInMinutes": 45,
+                "servings": 2
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 22:04",
+        "dieta": "Paleo",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "id": 639306,
+                "title": "Simple Poached Egg Dinner",
+                "readyInMinutes": 20,
+                "servings": 2
+            },
+            {
+                "id": 640990,
+                "title": "Cuban Flank Steak With Avocado and Tomato Salad",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 22:06",
+        "dieta": "Gluten Free",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 622598,
+                "title": "Pittata - Pizza Frittata",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "id": 1095827,
+                "title": "Ginger-Garlic and Lime Chicken Thighs with Escarole Salad",
+                "readyInMinutes": 30,
+                "servings": 6
+            },
+            {
+                "id": 633321,
+                "title": "Bacon Potato Cake with Cheese",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
+    },
+    {
+        "data": "2025-05-30 22:08",
+        "dieta": "Pescetarian",
+        "calorias": 30000,
+        "refeicoes": [
+            {
+                "dia": "monday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "monday",
+                "id": 1697577,
+                "title": "Spanish Sardines Pasta",
+                "readyInMinutes": 25,
+                "servings": 2
+            },
+            {
+                "dia": "monday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "tuesday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "tuesday",
+                "id": 1095806,
+                "title": "Spanish style salmon fillets",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "tuesday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "wednesday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "wednesday",
+                "id": 1095806,
+                "title": "Spanish style salmon fillets",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "wednesday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "thursday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "thursday",
+                "id": 1697577,
+                "title": "Spanish Sardines Pasta",
+                "readyInMinutes": 25,
+                "servings": 2
+            },
+            {
+                "dia": "thursday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "friday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "friday",
+                "id": 1095806,
+                "title": "Spanish style salmon fillets",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "friday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "saturday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "saturday",
+                "id": 1697577,
+                "title": "Spanish Sardines Pasta",
+                "readyInMinutes": 25,
+                "servings": 2
+            },
+            {
+                "dia": "saturday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "sunday",
+                "id": 640275,
+                "title": "Crab Cakes Eggs Benedict",
+                "readyInMinutes": 30,
+                "servings": 3
+            },
+            {
+                "dia": "sunday",
+                "id": 1095806,
+                "title": "Spanish style salmon fillets",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "sunday",
+                "id": 659042,
+                "title": "Salmon and Prawn Croquettes With Lemony Jalapeno Mayonnaise",
+                "readyInMinutes": 45,
+                "servings": 6
+            }
+        ]
+    },
+    {
+        "data": "2025-05-31 12:44",
+        "dieta": "Gluten Free",
+        "calorias": 40000,
+        "refeicoes": [
+            {
+                "dia": "monday",
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "monday",
+                "id": 650377,
+                "title": "Low Carb Brunch Burger",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "monday",
+                "id": 1697673,
+                "title": "Sheet Pan Dinner: Hanger Steak with Mushrooms and Carrots",
+                "readyInMinutes": 35,
+                "servings": 2
+            },
+            {
+                "dia": "tuesday",
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "tuesday",
+                "id": 650377,
+                "title": "Low Carb Brunch Burger",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "tuesday",
+                "id": 640349,
+                "title": "Cranberry and Orange Juice Spareribs",
+                "readyInMinutes": 210,
+                "servings": 4
+            },
+            {
+                "dia": "wednesday",
+                "id": 635446,
+                "title": "Blueberry Cinnamon Porridge",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "dia": "wednesday",
+                "id": 1095827,
+                "title": "Ginger-Garlic and Lime Chicken Thighs with Escarole Salad",
+                "readyInMinutes": 30,
+                "servings": 6
+            },
+            {
+                "dia": "wednesday",
+                "id": 1697673,
+                "title": "Sheet Pan Dinner: Hanger Steak with Mushrooms and Carrots",
+                "readyInMinutes": 35,
+                "servings": 2
+            },
+            {
+                "dia": "thursday",
+                "id": 635446,
+                "title": "Blueberry Cinnamon Porridge",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "dia": "thursday",
+                "id": 650377,
+                "title": "Low Carb Brunch Burger",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "thursday",
+                "id": 649048,
+                "title": "Korean Extra Crispy Fried Chicken",
+                "readyInMinutes": 45,
+                "servings": 4
+            },
+            {
+                "dia": "friday",
+                "id": 655786,
+                "title": "Persimmons Pumpkin Orange Smoothie With Chia Seeds",
+                "readyInMinutes": 45,
+                "servings": 3
+            },
+            {
+                "dia": "friday",
+                "id": 1095806,
+                "title": "Spanish style salmon fillets",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "friday",
+                "id": 648983,
+                "title": "Knishes - Potato Filling",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "dia": "saturday",
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "saturday",
+                "id": 1095827,
+                "title": "Ginger-Garlic and Lime Chicken Thighs with Escarole Salad",
+                "readyInMinutes": 30,
+                "servings": 6
+            },
+            {
+                "dia": "saturday",
+                "id": 661055,
+                "title": "Spicy Chili w Boneless Beef Short Ribs",
+                "readyInMinutes": 45,
+                "servings": 6
+            },
+            {
+                "dia": "sunday",
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "dia": "sunday",
+                "id": 1095827,
+                "title": "Ginger-Garlic and Lime Chicken Thighs with Escarole Salad",
+                "readyInMinutes": 30,
+                "servings": 6
+            },
+            {
+                "dia": "sunday",
+                "id": 660133,
+                "title": "Simple Roast Chicken",
+                "readyInMinutes": 45,
+                "servings": 4
+            }
+        ]
+    },
+    {
+        "data": "2025-05-31 17:12",
+        "dieta": "Nenhuma",
+        "calorias": "Não definido",
+        "refeicoes": [
+            {
+                "id": 1100990,
+                "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "id": 664565,
+                "title": "Vegetable Minestrone Soup",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 652591,
+                "title": "Mummy Meatballs with Spaghetti",
+                "readyInMinutes": 45,
+                "servings": 16
+            }
+        ]
+    },
+    {
+        "data": "2025-06-03 21:00",
+        "dieta": "Gluten Free",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 659081,
+                "title": "Salmon Frittata",
+                "readyInMinutes": 45,
+                "servings": 4
+            },
+            {
+                "id": 1095827,
+                "title": "Ginger-Garlic and Lime Chicken Thighs with Escarole Salad",
+                "readyInMinutes": 30,
+                "servings": 6
+            },
+            {
+                "id": 649248,
+                "title": "Lamb Tagine Stew",
+                "readyInMinutes": 45,
+                "servings": 4
+            }
+        ]
+    },
+    {
+        "data": "2025-06-03 21:08",
+        "dieta": "Vegan",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 635446,
+                "title": "Blueberry Cinnamon Porridge",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "id": 653251,
+                "title": "Noodles and Veggies With Peanut Sauce",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 657651,
+                "title": "Quick Veggie Stir-Fry",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
+    },
+    {
+        "data": "2025-06-03 21:13",
+        "dieta": "Gluten Free",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 659081,
+                "title": "Salmon Frittata",
+                "readyInMinutes": 45,
+                "servings": 4
+            },
+            {
+                "id": 642681,
+                "title": "Fesenjan Chicken Stew",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 640990,
+                "title": "Cuban Flank Steak With Avocado and Tomato Salad",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
+    },
+    {
+        "data": "2025-06-03 21:24",
+        "dieta": "Vegan",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 635446,
+                "title": "Blueberry Cinnamon Porridge",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "id": 653251,
+                "title": "Noodles and Veggies With Peanut Sauce",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 657651,
+                "title": "Quick Veggie Stir-Fry",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
+    },
+    {
+        "data": "2025-06-04 11:28",
+        "dieta": "Ketogenic",
+        "calorias": 2500,
+        "refeicoes": [
+            {
+                "id": 716432,
+                "title": "Finger Foods: Frittata Muffins",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "id": 650377,
+                "title": "Low Carb Brunch Burger",
+                "readyInMinutes": 30,
+                "servings": 2
+            },
+            {
+                "id": 654663,
+                "title": "Parmesan chicken nuggets",
+                "readyInMinutes": 45,
+                "servings": 2
+            }
+        ]
+    }
+]

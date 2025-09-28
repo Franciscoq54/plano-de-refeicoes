@@ -1,21 +1,24 @@
+"""
+Modulo responsavel por todas as chamadas à API de culinaria(Spoonacular)
+Inclui funcoes para obter planos de refeições, detalhes de receitas, modo de preparo, etc.
+"""
 import requests
 
-#gera um plano de refeicoes utilizando a API sPOONACULAR
-#obtem um plano de refeicoes com base nas preferencia do utilizador
+#gera um plano de refeicoes utilizando a API com base nas preferencias do utilizador
 def planoRefeicoes(api_key, time_frame = 'day', target_calories = None, dieta = None, excluir = None):
     url = "https://api.spoonacular.com/mealplanner/generate"  #endpoint da API
     params = {
         "timeFrame": time_frame,
         "apiKey": api_key
     }
-    #adiciona parametros opcionais
+    #adiciona parametros opcionais se definidos pelo utilizador
     if target_calories:
         params["targetCalories"] = target_calories
     if dieta:
         params["diet"] = dieta
     if excluir:
         params["exclude"] = excluir
-    #faz a requisicao para a API
+
     response = requests.get(url, params=params)
     if response.status_code == 200:
         #retorna o plano de refeicao em JSON
@@ -25,9 +28,9 @@ def planoRefeicoes(api_key, time_frame = 'day', target_calories = None, dieta = 
         print(f"Erro ao gerar plano de refeições: {response.status_code}, {response.text}")
         return None
 
-#pesquisa receitas baseadas nos ingredientes disponiveis
-# obtem receitas que podem ser feitas com os ingredientes fornecidos    
-def obterReceitas(ingredientes, api_key, numero_receitas = 5, dieta = None, intolerancias = None):
+#pesquisa receitas baseadas nos ingredientes disponiveis do utilizador
+    
+def obterReceitas(ingredientes, api_key, numero_receitas = 5, dieta = None, intolerancias = None, offset=None):
     url = "https://api.spoonacular.com/recipes/complexSearch"
     params = { 
         "includeIngredients": ",".join(ingredientes) ,
@@ -41,6 +44,8 @@ def obterReceitas(ingredientes, api_key, numero_receitas = 5, dieta = None, into
         params["diet"] = dieta
     if intolerancias:
         params['intolerances'] = ",".join(intolerancias)
+    if offset is not None:
+        params['offset'] = offset
 
     response = requests.get(url, params=params)
     if response.status_code == 200:
@@ -50,7 +55,7 @@ def obterReceitas(ingredientes, api_key, numero_receitas = 5, dieta = None, into
         print("Erro ao obter receitas: ", response.status_code, response.text)
         return[]
 
-#obtem informacoes detalhadas acerca de uma receita especifica, como ingredientes e valores nutricionais
+#obtem informacoes detalhadas acerca de uma receita especifica
 def obterDetalhesReceita(receita_id, api_key):
     url = f"https://api.spoonacular.com/recipes/{receita_id}/information"
     params = {
@@ -82,7 +87,7 @@ def valoresNutricionais(valNutricionais):
                 hidratos = f"{item['amount']} {item['unit']}"
     return calorias, proteinas, gorduras, hidratos            
 
-#obtem o passo-a-passo do modo de preparo da receita
+#obtem o passo-a-passo do modo de preparo para uma receita
 def obterModoPreparo(receita_id, api_key):
     url = f"https://api.spoonacular.com/recipes/{receita_id}/analyzedInstructions"
     params = {
@@ -96,7 +101,7 @@ def obterModoPreparo(receita_id, api_key):
         print(f"Erro ao obter o modo de preparo da receita {receita_id}: ", response.status_code, response.text)
         return []
 
-#sugere substitutos para um ingrediente 
+#sugere substituicoes para um ingrediente dado
 def substituicaoIngrediente(nome_ingrediente, api_key):
     url = "https://api.spoonacular.com/food/ingredients/substitutes" 
     params = {
@@ -116,25 +121,36 @@ def substituicaoIngrediente(nome_ingrediente, api_key):
         print(f"Erro ao obter substitutos para {nome_ingrediente}: ", response.status_code, response.text)
         return []
     
-#obtem lista de compras para o plano gerado
+#Gera uma lista de ingredientes necessarios para um conjunto de receitas
 def obterListaCompras(meals, api_key):
     lista_ingredientes = {}
     print("\nA gerar lista de compras de acordo com as receitas fornecidas.")
 
     for refeicao in meals:
+        if 'id' not in refeicao:
+            print("Refeição inválida: não contém ID.")
+            continue
         detalhes = obterDetalhesReceita(refeicao['id'], api_key)
         if detalhes:
             for ingrediente in detalhes.get("extendedIngredients", []):
                 nome = ingrediente['name']
                 medidas_metric = ingrediente.get('measures', {}).get('metric', {})
                 quantidade = medidas_metric.get('amount', 0)
-
+                unidade = medidas_metric.get('unit', '')
+                
                 if nome in lista_ingredientes:
-                    lista_ingredientes[nome]['quantidade'] += quantidade
+                    #soma se for a mesma unidade, senao mantem so a ultima unidade encontrada
+                    if lista_ingredientes[nome]['unidade'] == unidade:
+                        lista_ingredientes[nome]['quantidade'] += quantidade
+                    else:
+                        #se a mesma receira pedir o mesmo ingrediente em diferentes unidades
+                        lista_ingredientes[nome]['quantidade'] += quantidade
+                        lista_ingredientes[nome]['unidade'] = unidade
                 else:
-                    lista_ingredientes[nome] = {
-                        'quantidade': quantidade,
-                    }
+                    lista_ingredientes[nome] = {"quantidade": quantidade, "unidade": unidade}
+
     print("\nLista de compras necessarias para o seu plano:")
     for nome, info in lista_ingredientes.items():
-        print(f" - {nome}: {round(info['quantidade'], 2)}")
+        print(f" - {nome}: {round(info['quantidade'], 2)} {info['unidade']}")
+
+    return lista_ingredientes
