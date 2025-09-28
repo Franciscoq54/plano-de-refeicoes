@@ -8,6 +8,14 @@ Um aplicativo Python para **planeamento de refeições diárias e semanais**, in
 
 ---
 
+## Índice
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Licença](#licença)
+
 ## Funcionalidades
 
 - Gerar planos de refeições diárias ou semanais com base nas preferências do usuário.
@@ -42,7 +50,7 @@ Um aplicativo Python para **planeamento de refeições diárias e semanais**, in
 - Requests
 - API Spoonacular
 - dotenv (para variáveis de ambiente)
-
+- (Opcional) Jupyter Notebook para demonstrações
 
 ---
 
@@ -115,20 +123,4 @@ plano-de-refeicoes/
 
 ## Licença
 MIT License © [Franciscoq54]
-
-
 ---
-<<<<<<< HEAD
-
-💡 **O que fazer agora:**
-
-1. Crie uma pasta `assets/` na raiz do projeto.  
-2. Adicione seus **GIFs e screenshots** com os nomes indicados (`demo.gif`, `plano_refeicoes.png`, etc.).  
-3. Faça commit do README atualizado:
-
-```bash
-git add README.md assets/
-git commit -m "Atualiza README com visual e exemplos"
-git push origin main
-=======
->>>>>>> 70f5c9b (Uptade README)
