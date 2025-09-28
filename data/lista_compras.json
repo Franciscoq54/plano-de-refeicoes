@@ -2101,5 +2101,119 @@
             "quantidade": 78.863,
             "unidade": ""
         }
+    },
+    "2025-09-28 11:55:21": {
+        "blueberry jam": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "cinnamon": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "coconut oil": {
+            "quantidade": 72.667,
+            "unidade": ""
+        },
+        "oats": {
+            "quantidade": 30.0,
+            "unidade": ""
+        },
+        "water": {
+            "quantidade": 475.176,
+            "unidade": ""
+        },
+        "your favourite toppings": {
+            "quantidade": 2.0,
+            "unidade": ""
+        },
+        "bell peppers": {
+            "quantidade": 4.0,
+            "unidade": ""
+        },
+        "cayenne": {
+            "quantidade": 0.5,
+            "unidade": ""
+        },
+        "chili powder": {
+            "quantidade": 0.25,
+            "unidade": ""
+        },
+        "chorizo": {
+            "quantidade": 453.592,
+            "unidade": ""
+        },
+        "cumin": {
+            "quantidade": 0.25,
+            "unidade": ""
+        },
+        "green onion tops": {
+            "quantidade": 4.0,
+            "unidade": ""
+        },
+        "monterrey jack and cheddar cheese": {
+            "quantidade": 28.25,
+            "unidade": ""
+        },
+        "ground beef": {
+            "quantidade": 453.592,
+            "unidade": ""
+        },
+        "quinoa": {
+            "quantidade": 170.0,
+            "unidade": ""
+        },
+        "¼ olive oil": {
+            "quantidade": 216.0,
+            "unidade": ""
+        },
+        "¼ lime juice": {
+            "quantidade": 242.0,
+            "unidade": ""
+        },
+        "orange juice": {
+            "quantidade": 2.0,
+            "unidade": ""
+        },
+        "garlic cloves": {
+            "quantidade": 4.0,
+            "unidade": ""
+        },
+        "½ cumin": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "½ salt": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "½ pepper": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "½ oregano": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "hand full of cilantro": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "flank steak": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "avocado": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "tomato": {
+            "quantidade": 1.0,
+            "unidade": ""
+        },
+        "onion": {
+            "quantidade": 4.0,
+            "unidade": ""
+        }
     }
 }

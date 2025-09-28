@@ -846,5 +846,30 @@
                 "servings": 2
             }
         ]
+    },
+    {
+        "data": "2025-09-28 11:55",
+        "dieta": "Gluten Free",
+        "calorias": 3000,
+        "refeicoes": [
+            {
+                "id": 635446,
+                "title": "Blueberry Cinnamon Porridge",
+                "readyInMinutes": 45,
+                "servings": 1
+            },
+            {
+                "id": 715523,
+                "title": "Chorizo and Beef Quinoa Stuffed Pepper",
+                "readyInMinutes": 30,
+                "servings": 4
+            },
+            {
+                "id": 640990,
+                "title": "Cuban Flank Steak With Avocado and Tomato Salad",
+                "readyInMinutes": 45,
+                "servings": 1
+            }
+        ]
     }
 ]
