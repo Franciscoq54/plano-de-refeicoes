@@ -42,7 +42,7 @@ Um aplicativo Python para **planeamento de refeições diárias e semanais**, in
 - Requests
 - API Spoonacular
 - dotenv (para variáveis de ambiente)
-- (Opcional) Jupyter Notebook para demonstrações
+
 
 ---
 
